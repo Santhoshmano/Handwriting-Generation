@@ -1,0 +1,80 @@
+
+
+<html>
+    <head>
+        <title>
+            Handwriting Generation
+        </title>
+        <link rel = "stylesheet" href = "style.css"/>
+    </head>
+<body>
+<form action = "/result" method = "post">
+            <ul>
+                <li>
+                    <p>Enter the text to generate:</p>
+                </li>
+                <li>
+                    <input type = "text" name = "gen_text" id = "gen_text" placeholder = "text"/>
+                </li>
+                <li>
+                    <p> Select a style (optional): </p>
+                </li>
+                <li>
+                    <input type = "radio" name = "style" id = "style1" value = "0">
+                    <input type="hidden" name="email" value="santhosh99mano@gmail.com">
+                    <img src = "imgs/style0.png" /></input>
+                </li>
+                <li>
+                    <input type = "radio" name = "style" id = "style2" value = "1"/>
+                    <img src = "imgs/style1.png" /></input>
+                     <input type="hidden" name="email" value="santhosh99mano@gmail.com">
+                </li>
+                <li>
+                    <input type = "radio" name = "style" id = "style3"  value = "2"/>
+                    <img src = "imgs/style2.png" /></input>
+                    <input type="hidden" name="email" value="santhosh99mano@gmail.com">
+                </li>
+                <li>
+                    <input type = "radio" name = "style" id = "style4"  value = "3"/>
+                    <img src = "imgs/style3.png" /></input>
+                     <input type="hidden" name="email" value="santhosh99mano@gmail.com">
+                </li>
+                <li>
+                    <input type = "radio" name = "style" id = "style5"  value = "4"/>
+                    <img src = "imgs/style4.png" /></input>
+                     <input type="hidden" name="email" value="santhosh99mano@gmail.com">
+                </li>
+                <li>
+                    <input type = "radio" name = "style" id = "style6"  value = "5"/>
+                    <img src = "imgs/style5.png" /></input>
+                     <input type="hidden" name="email" value="santhosh99mano@gmail.com">
+                </li>
+                <li>
+                    <input type = "radio" name = "style" id = "style7"  value = "6"/>
+                    <img src = "imgs/style6.png" /></input>
+                     <input type="hidden" name="email" value="santhosh99mano@gmail.com">
+                </li>
+                <li>
+                    <input type = "radio" name = "style" id = "style8"  value = "7"/>
+                    <img src = "imgs/style7.png" /></input>
+                     <input type="hidden" name="email" value="santhosh99mano@gmail.com">
+                </li>
+                <li>
+                    <input type = "radio" name = "style" id = "none" value = "404"/>
+                    None
+                </li>
+                <li>
+                    Select the bias (min. 0, max. 1.0):
+                </li>
+                <li>
+                    <input name = "bias" min = "0" max = "1" value = "0.15" step = "0.05" type = "range" />
+                </li>
+                <li>
+                    <button type = "submit" id = "generate">Submit</button>
+                </li>
+            </ul>     
+        </form>        
+
+
+</body>
+</html>
